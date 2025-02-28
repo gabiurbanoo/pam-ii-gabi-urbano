@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpoTweeFy</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="shortcut icon" href="img/logo.png" type="img/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="img/logoo.png" alt="" class="logo">
+        <div class="containerBusca">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" id="procurar" class="procurar" placeholder="Buscar">
+        </div>
+        <i class="fa-solid fa-user"></i>
+    </header>
+    <main>
+            <div class="infoUsuario">
+            <div class="imagemDeUser"></div>
+            <p>Nome: <span id="nome"></span></p>
+            <button type="button" id="trocar">Trocar nome</button>
+            <p>Nome de Usuário: <span id="nomeDeUsuario"></span></p>
+            <button type="button" id="deslogar">Deslogar</button>
+            <button type="button" id="apagar">Apagar sua Conta</button>
+            </div>
+    <div class="linhaE"></div>
+        <div class="scrollPrincipal">
+        <form action="" id="reviewForm">
+            <div id="reviewForms">
+                <input type="hidden" id="hiddenId">
+                <textarea name="" id="review" class="escrever" placeholder="Escreva seus pensamentos!"></textarea>
+                <button type="submit" id="buttonReview">Postar!</button>
+            </div>  
+        </form>
+        <ul id="posts"> 
+        </ul>
+        </div>
+    <div class="linhaD"></div>
+    </main>
+    <script type="module" src="homepage.js"></script>
+</body>
+</html>

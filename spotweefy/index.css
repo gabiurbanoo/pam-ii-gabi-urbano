@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #191414;
+    color: #1DB954;
+}
+
+header {
+    background-color: #1DB954;
+    color: #191414;
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 14vh;
+    margin-left: 1%;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+.container {
+    display: flex;
+    gap: 5px;
+    border: 1px dashed rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    width: 55vw;
+    height: 50vh;
+    position: relative;
+    bottom: 40vh;
+    justify-content: center;
+    padding: 5% 0;
+}
+.nomes {
+    display: flex;
+    gap: 2px;
+}
+.nomes input {
+    width: 25vw;
+    align-items: center;
+}
+input {
+    height: 5vh;
+    background-color: transparent;
+    color: #1DB954;
+    outline: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 4px;
+}
+h1, .mensagemCriar {
+    text-align: center;
+}
+form {
+    display: grid;
+}
+p {
+    text-align: center;
+} 
+.buttonCriar {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #1DB954;
+    color: #1DB954;
+    outline: none;
+    margin-left: 20%;
+}
+.buttonEntrar {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #1DB954;
+    color: #1DB954;
+    outline: none;
+}
+.buttonEnviar {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 6px;
+    background-color: #1DB954;
+    color: #191414;
+    outline: none;
+    border: none;
+}
+.buttonEnviar1 {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 6px;
+    background-color: #1DB954;
+    color: #191414;
+    outline: none;
+    border: none;
+    margin-left: 20%;
+}
+.mensagemEntrar {
+    width: 30vw;
+    opacity: 0;
+    color: #1DB954;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.mensagemCriar {
+    width: 40vw;
+    opacity: 0;
+    color: #1DB954;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 11%;
+}
